@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_juego"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:id="@+id/layout_ahorcado"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="84dp" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_palabra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteY="334dp" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/img_vida8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_vida7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+
+    <ImageView
+        android:id="@+id/img_vida7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_vida6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+    <ImageView
+        android:id="@+id/img_vida6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_vida5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+    <ImageView
+        android:id="@+id/img_vida5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_vida4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+    <ImageView
+        android:id="@+id/img_vida4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_vida3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+    <ImageView
+        android:id="@+id/img_vida3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_vida2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+    <ImageView
+        android:id="@+id/img_vida2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        app:layout_constraintEnd_toStartOf="@+id/img_vida1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+
+    <ImageView
+        android:id="@+id/img_vida1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/txt_nombre_juego"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ico_vida_pix_20" />
+
+    <ImageView
+        android:id="@+id/img_personaje_juego"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icono_cerdo_128" />
+
+    <TextView
+        android:id="@+id/txt_nombre_juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:gravity="right"
+        android:text="TextView"
+        android:textColor="@color/color_titulo"
+        app:layout_constraintEnd_toStartOf="@+id/img_personaje_juego"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_puntuacionVidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:gravity="right"
+        android:textColor="@color/color_titulo"
+        app:layout_constraintEnd_toStartOf="@+id/img_personaje_juego"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre_juego" />
+
+    <Button
+        android:id="@+id/btn_a"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="A"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_b"
+        app:layout_constraintTop_toTopOf="@+id/btn_b" />
+
+    <Button
+        android:id="@+id/btn_e"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="E"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_f"
+        app:layout_constraintTop_toTopOf="@+id/btn_f" />
+
+    <Button
+        android:id="@+id/btn_d"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="D"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_e"
+        app:layout_constraintTop_toTopOf="@+id/btn_e" />
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="C"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_d"
+        app:layout_constraintTop_toTopOf="@+id/btn_d" />
+
+    <Button
+        android:id="@+id/btn_b"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="B"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_c"
+        app:layout_constraintTop_toTopOf="@+id/btn_c" />
+
+    <Button
+        android:id="@+id/btn_ñ"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="Ñ"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_o"
+        app:layout_constraintTop_toTopOf="@+id/btn_o" />
+
+    <Button
+        android:id="@+id/btn_n"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="N"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_ñ"
+        app:layout_constraintTop_toTopOf="@+id/btn_ñ" />
+
+    <Button
+        android:id="@+id/btn_m"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="M"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_n"
+        app:layout_constraintTop_toTopOf="@+id/btn_n" />
+
+    <Button
+        android:id="@+id/btn_u"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="U"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_v"
+        app:layout_constraintTop_toTopOf="@+id/btn_v" />
+
+    <Button
+        android:id="@+id/btn_v"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="V"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_w"
+        app:layout_constraintTop_toTopOf="@+id/btn_w" />
+
+    <Button
+        android:id="@+id/btn_w"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="W"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_q" />
+
+    <Button
+        android:id="@+id/btn_x"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="X"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_y"
+        app:layout_constraintTop_toTopOf="@+id/btn_y" />
+
+    <Button
+        android:id="@+id/btn_y"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="Y"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_z"
+        app:layout_constraintTop_toTopOf="@+id/btn_z" />
+
+    <Button
+        android:id="@+id/btn_z"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="Z"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_w" />
+
+    <Button
+        android:id="@+id/btn_vacion"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:enabled="false"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:textColor="@android:color/transparent"
+        app:backgroundTint="@android:color/transparent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_x"
+        app:layout_constraintTop_toTopOf="@+id/btn_x" />
+
+    <Button
+        android:id="@+id/btn_o"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="O"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_p"
+        app:layout_constraintTop_toTopOf="@+id/btn_p" />
+
+    <Button
+        android:id="@+id/btn_p"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="P"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_q"
+        app:layout_constraintTop_toTopOf="@+id/btn_q" />
+
+    <Button
+        android:id="@+id/btn_q"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="Q"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_l" />
+
+    <Button
+        android:id="@+id/btn_t"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="T"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_u"
+        app:layout_constraintTop_toTopOf="@+id/btn_u" />
+
+    <Button
+        android:id="@+id/btn_s"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="S"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_t"
+        app:layout_constraintTop_toTopOf="@+id/btn_t" />
+
+    <Button
+        android:id="@+id/btn_r"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="R"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_s"
+        app:layout_constraintTop_toTopOf="@+id/btn_s" />
+
+    <Button
+        android:id="@+id/btn_j"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="J"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_k"
+        app:layout_constraintTop_toTopOf="@+id/btn_k" />
+
+    <Button
+        android:id="@+id/btn_i"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="I"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_j"
+        app:layout_constraintTop_toTopOf="@+id/btn_j" />
+
+    <Button
+        android:id="@+id/btn_h"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="H"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_i"
+        app:layout_constraintTop_toTopOf="@+id/btn_i" />
+
+    <Button
+        android:id="@+id/btn_g"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="G"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_h"
+        app:layout_constraintTop_toTopOf="@+id/btn_h" />
+
+    <Button
+        android:id="@+id/btn_l"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="L"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_f" />
+
+    <Button
+        android:id="@+id/btn_k"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="K"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toStartOf="@+id/btn_l"
+        app:layout_constraintTop_toTopOf="@+id/btn_l" />
+
+    <Button
+        android:id="@+id/btn_f"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="validarLetra"
+        android:text="F"
+        android:textColor="@color/color_botones_texto"
+        app:backgroundTint="@color/color_botones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_personaje_juego" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

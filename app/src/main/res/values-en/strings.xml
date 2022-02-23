@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Inicio -->
+    <string name="app_name">Piggies</string>
+    <string name="btn_jugar">Play!</string>
+    <string name="btn_config">Configuration</string>
+    <string name="btn_salir">Exit</string>
+    <string name="btn_info">About...</string>
+
+    <!-- Informacion -->
+    <string name="txt_tituloInfo">About...</string>
+    <string name="txt_descInfo">App created by Joaquín Alcázar Carrasco</string>
+
+    <!-- Configuración -->
+    <string name="txt_tituloConfiguracion">Pick a background color</string>
+    <string name="btn_gris">Gray</string>
+    <string name="btn_rosa">Pink</string>
+
+    <!-- Creación de personaje -->
+    <string name="txt_titulo_creacion_personaje">Choose your character</string>
+    <string name="personaje_paloma">Pigeon</string>
+    <string name="personaje_cerdo">Piggy</string>
+    <string name="personaje_gato">Kitty</string>
+    <string name="personaje_perro">Doggy</string>
+    <string name="personaje_zorro">Fox</string>
+    <string name="personaje_vaca">Cow</string>
+
+    <!-- nombre personaje -->
+    <string name="txt_titulo_nombre_personaje">Pick a name</string>
+    <string name="btn_siguiente">Next</string>
+
+    <!-- Juego -->
+    <string name="txt_nivel">Level</string>
+
+    <!-- Resultado final -->
+    <string name="btn_volver_inicio">End Game</string>
+    <string name="txt_resultado_gana">You won!!</string>
+    <string name="txt_resultado_pierde">You lost :(</string>
+    <string name="txt_resultado_fin">All levels completed!!</string>
+    <string name="btn_continuar_gana">Continue</string>
+    <string name="btn_continuar_pierde">Try again</string>
+    <string name="btn_continuar_fin">Play again</string>
+
+</resources>

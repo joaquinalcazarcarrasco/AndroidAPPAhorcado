@@ -1,0 +1,46 @@
+<resources>
+    <!-- Inicio -->
+    <string name="app_name">Cerdis</string>
+    <string name="btn_jugar">¡Jugar!</string>
+    <string name="btn_config">Configuración</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_info">Información</string>
+
+    <!-- Información -->
+    <string name="txt_tituloInfo">Información</string>
+    <string name="txt_descInfo">Aplicación creada por Joaquín Alcázar Carrasco</string>
+
+    <!-- imagen -->
+    <string name="icono_cerdo128" translatable="false">\@drawable/icono_cerdo_128.png</string>
+
+    <!-- Configuración -->
+    <string name="txt_tituloConfiguracion">Elige color de fondo</string>
+    <string name="btn_gris">Gris</string>
+    <string name="btn_rosa">Rosa</string>
+
+    <!-- Creación de personaje -->
+    <string name="txt_titulo_creacion_personaje">Elige tu personaje</string>
+    <string name="personaje_paloma">Palomx</string>
+    <string name="personaje_cerdo">Cerdx</string>
+    <string name="personaje_gato">Gatx</string>
+    <string name="personaje_perro">Perrx</string>
+    <string name="personaje_zorro">Zorrx</string>
+    <string name="personaje_vaca">Vaca</string>
+
+    <!-- Nombre personaje -->
+    <string name="txt_titulo_nombre_personaje">Indica tu nombre</string>
+    <string name="btn_siguiente">Siguiente</string>
+
+    <!-- Juego -->
+    <string name="txt_nivel">Nivel</string>
+
+    <!-- Resultado final -->
+    <string name="btn_volver_inicio">Finalizar Juego</string>
+    <string name="txt_resultado_gana">¡¡Has ganado!!</string>
+    <string name="txt_resultado_pierde">Has perdido :(</string>
+    <string name="txt_resultado_fin">¡¡Juego completado!!</string>
+    <string name="btn_continuar_gana">Continuar</string>
+    <string name="btn_continuar_pierde">Volver a intentar</string>
+    <string name="btn_continuar_fin">Volver a empezar</string>
+
+</resources>

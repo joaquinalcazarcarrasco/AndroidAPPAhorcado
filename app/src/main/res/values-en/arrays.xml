@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="palabras">
+        <item>DIVERSITY</item>
+        <item>POCKET</item>
+        <item>RIDE</item>
+        <item>JAVASCRIPT</item>
+        <item>STAR</item>
+        <item>MOUNTAIN</item>
+        <item>SOLDIER</item>
+        <item>ELBOW</item>
+        <item>BANANA</item>
+        <item>BEACH</item>
+        <item>LANDSCAPE</item>
+        <item>ORACLE</item>
+        <item>SHOE</item>
+        <item>AVOCADO</item>
+        <item>SHADOW</item>
+    </string-array>
+</resources>

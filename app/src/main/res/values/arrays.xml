@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="palabras">
+        <item>BALBUCEO</item>
+        <item>BOLSILLO</item>
+        <item>CABALGAR</item>
+        <item>CONSERJE</item>
+        <item>ESTRELLA</item>
+        <item>FOLKLORE</item>
+        <item>MINUTERO</item>
+        <item>PSICOSIS</item>
+        <item>PAPAYA</item>
+        <item>DESIERTO</item>
+        <item>PLAYA</item>
+        <item>ORACLE</item>
+        <item>ZAPATO</item>
+        <item>AVENA</item>
+        <item>SOMBRA</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--  colores definidos por mí -->
+    <!--color name="color_botones5">#F6B2F5</color-->
+    <color name="color_botones">#F1B9CF</color>
+    <color name="color_fondo">#FF222222</color>
+    <color name="color_fondo2">#4E313C</color>
+    <color name="color_fondoDialog">#916F7D</color>
+    <color name="color_titulo">#FFFFFFFF</color>
+    <color name="color_texto_sinFondo">#FFFFFFFF</color>
+    <color name="color_toolbar">#000000</color>
+    <color name="color_transparente">#00FFFFFF</color>
+    <color name="color_hint">#66FFFFFF</color>
+    <color name="color_botones_texto">#FF333333</color>
+</resources>
